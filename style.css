@@ -1,0 +1,166 @@
+*{
+    margin: 5px;
+    padding: 5px;
+}
+body {
+    font-family: Arial,sans-serif;
+    color: #747474;
+}
+a {
+    color: #747474;
+    text-decoration: none;
+    display: flex;
+}
+a:hover{
+    transition: 1;
+    color: #00b39b;
+}
+.banniere{
+    color: #00b39b;
+}
+.Docplanner-logo img{
+    width: 40%;
+    height: 40%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20PX 40PX;
+}
+.premier-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+.intro-logo {
+    width: 80PX;
+    height: 80px;
+}
+.intro-title {
+    color: #00b39b;
+}
+.intro-text {
+    display: flex;
+}
+.boxes {
+    display: flex;
+    color: white;
+}
+.box-card-patient {
+background-color: #00b39b;
+padding: 20px ;
+ border-radius: 9px;
+ margin: 20px;
+}
+.box-card-doctors {
+background-color: #77B5FE;
+padding: 20px;
+border-radius: 5px;
+margin: 20px;
+}
+.box-card-clinics {
+    background-color: #281e5d;
+    padding: 20px;
+     border-radius: 9px;
+     margin: 20px;
+}
+.box-card-select {
+    color: white;
+    background-color: transparent;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.intro-pa {
+    margin: 10px;
+}
+.about-text {
+    display: flex;
+    margin: 50px ;
+    flex-direction: column;
+}
+.about{
+    display: flex;
+    background-color: #b1f5ec;
+    align-items: center;
+}
+.about-text h3{
+    color: #00b39b;
+}
+.about-card-leader{
+    background-color: white;
+    padding: 20px;
+     border-radius: 9px;
+     margin: 20px;
+}
+.about-card-appointments{
+    background-color: white;
+    padding: 20px;
+     border-radius: 9px;
+     margin: 20px;
+}
+.about-card-patients{
+    background-color: white;
+    padding: 20px;
+     border-radius: 9px;
+     margin: 20px;
+}
+.about-card-doctors{
+    background-color: white;
+    padding: 20px;
+     border-radius: 9px;
+     margin: 20px;
+}
+.about-card{
+    flex-direction: column;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0; 
+}
+
+.contenu .box .imbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.contenu .box{
+    width: 200px;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+    flex-direction: row;
+}
+.btn1{
+    font-size: 1em;
+    color: #fff;
+    background:#00b39b ;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.contenu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.join{
+    color: #747474;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
